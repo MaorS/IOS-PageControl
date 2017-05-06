@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qMt-ED-A3t">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="WIg-Ry-LRO">
+            <objects>
+                <viewController storyboardIdentifier="mainStoryBoard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qMt-ED-A3t" customClass="ViewController" customModule="UIPageViewController_Post" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wHa-Wr-Daj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pce-yU-h5X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LaF-Tq-Zsr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aL-Xh-UzS">
+                                <rect key="frame" x="20" y="28" width="335" height="40"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="0.80652080140000004" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="9aL-Xh-UzS" firstAttribute="top" secondItem="wHa-Wr-Daj" secondAttribute="bottom" constant="8" symbolic="YES" id="TaQ-0k-W4Z"/>
+                            <constraint firstAttribute="trailing" secondItem="9aL-Xh-UzS" secondAttribute="trailing" constant="20" symbolic="YES" id="uQ9-Dg-Qvu"/>
+                            <constraint firstItem="9aL-Xh-UzS" firstAttribute="leading" secondItem="LaF-Tq-Zsr" secondAttribute="leading" constant="20" symbolic="YES" id="zJA-zV-oL5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VA0-gn-g9j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17" y="120"/>
+        </scene>
+    </scenes>
+</document>
